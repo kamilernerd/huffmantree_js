@@ -1,2 +1,2 @@
 # huffmantree_js
-Huffman tree written in JS
+Huffman tree written in JS for my shool assignment
