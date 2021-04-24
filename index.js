@@ -81,11 +81,13 @@ function decode(tree, str) {
     }
     
     if (typeof node === 'string') {
-      output += node[0]node = tree
+      output += node[0]
+      node = tree
     }
   }
   
   return output
 }
 
-const decoded = decode(trim(encoded.tree), encoded.out)console.log("Decoded:", decoded)
+const decoded = decode(trim(encoded.tree), encoded.out)
+console.log("Decoded:", decoded)
